@@ -24,7 +24,6 @@
 						"type": "SqlDWSink",
 						"writeBehavior": "Insert",
 						"sqlWriterUseTableLock": false,
-						"tableOption": "autoCreate",
 						"disableMetricsCollection": false
 					},
 					"enableStaging": false,
