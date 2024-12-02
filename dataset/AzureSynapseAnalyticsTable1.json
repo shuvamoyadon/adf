@@ -32,7 +32,11 @@
 				"type": "int",
 				"precision": 10
 			}
-		]
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "customer"
+		}
 	},
 	"type": "Microsoft.Synapse/workspaces/datasets"
 }
