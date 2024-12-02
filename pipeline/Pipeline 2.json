@@ -21,7 +21,13 @@
 						"partitionOption": "None"
 					},
 					"enableStaging": false
-				}
+				},
+				"inputs": [
+					{
+						"referenceName": "AzureSynapseAnalyticsTable1",
+						"type": "DatasetReference"
+					}
+				]
 			}
 		],
 		"annotations": []
