@@ -2,7 +2,7 @@
 	"name": "AzureSynapseAnalyticsTable1",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureSynapseAnalytics1",
+			"referenceName": "AzureSynapseAnalytics2",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
@@ -32,11 +32,7 @@
 				"type": "int",
 				"precision": 10
 			}
-		],
-		"typeProperties": {
-			"schema": "dbo",
-			"table": "customer"
-		}
+		]
 	},
 	"type": "Microsoft.Synapse/workspaces/datasets"
 }
